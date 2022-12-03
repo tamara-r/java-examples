@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lambda-expessions/example1/example1.iml" filepath="$PROJECT_DIR$/lambda-expessions/example1/example1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-classes/example1/example11.iml" filepath="$PROJECT_DIR$/inner-classes/example1/example11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/example1/example12.iml" filepath="$PROJECT_DIR$/reflection/example1/example12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/example1/example13.iml" filepath="$PROJECT_DIR$/generics/example1/example13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/example1/example14.iml" filepath="$PROJECT_DIR$/collections/example1/example14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-threading/example1/example15.iml" filepath="$PROJECT_DIR$/multi-threading/example1/example15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/example1/example16.iml" filepath="$PROJECT_DIR$/annotations/example1/example16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/input-output/example1/example17.iml" filepath="$PROJECT_DIR$/input-output/example1/example17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambda-expessions/example2/example2.iml" filepath="$PROJECT_DIR$/lambda-expessions/example2/example2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inner-classes/example2/example21.iml" filepath="$PROJECT_DIR$/inner-classes/example2/example21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/example2/example22.iml" filepath="$PROJECT_DIR$/reflection/example2/example22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generics/example2/example23.iml" filepath="$PROJECT_DIR$/generics/example2/example23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/example2/example24.iml" filepath="$PROJECT_DIR$/collections/example2/example24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/input-output/example2/example25.iml" filepath="$PROJECT_DIR$/input-output/example2/example25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/example2/example26.iml" filepath="$PROJECT_DIR$/annotations/example2/example26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-threading/example2/example27.iml" filepath="$PROJECT_DIR$/multi-threading/example2/example27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+    </modules>
+  </component>
+</project>
