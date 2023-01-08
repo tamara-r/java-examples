@@ -1,9 +1,9 @@
 package devices;
 
-import annotations.ClassFields;
+import annotations.ClassField;
 
 public class Computer {
-    @ClassFields(name = "name")
+    @ClassField(name = "name")
     String name;
 
     public Computer(String name) {
@@ -23,6 +23,6 @@ public class Computer {
     @Override
     public String toString() {
         return "Computer: " +
-                name + '\'' ;
+                name;
     }
 }

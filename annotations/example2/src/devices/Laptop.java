@@ -1,6 +1,6 @@
 package devices;
 
-import annotations.ClassFields;
+import annotations.ClassField;
 import annotations.OperationSystem;
 
 import java.text.DecimalFormat;
@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 @OperationSystem(systemName = "iOS", version = 14)
 public class Laptop extends Computer implements CalculatePrice{
 
-    @ClassFields(name = "price")
+    @ClassField(name = "price")
     private double price;
 
     public Laptop(String name, double price) {

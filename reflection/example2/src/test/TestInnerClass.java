@@ -132,7 +132,5 @@ public class TestInnerClass {
         System.out.println("Is " + localName + " local class: " + isLocal5);
         System.out.println("Is " + localName + " member class: " + isMember5);
         System.out.println("Is " + localName + " anonymous class: " + isAnonymous5);
-
     }
-
 }

@@ -20,16 +20,14 @@ public class Test {
         Professor p2 = new Professor("Uros", "Jovanovic");
 
 
-
         p1.setAddon(55);
         System.out.println("Prof." + p1 + " is " + p1.getAddon() + " years old.");
 
         s1.setAddon(9.55);
-
-
         System.out.println("Avarage mark of " + s1 + " is " + s1.getAddon());
 
-        System.out.println("Prof." + p2 + " holds subjects: " + p2.getAddon());
+        p2.setAddon("Java");
+        System.out.println("Prof." + p2 + " holds subject: " + p2.getAddon());
 
         List<Person> persons = new ArrayList<>();
 

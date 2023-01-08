@@ -18,8 +18,10 @@ public class Test {
         users.add(u1);
         users.add(u2);
 
+
         for(User u : users) {
             for (Field field : u.getClass().getDeclaredFields()) {
+                System.out.println(u);
                 ClassFields classFields = field.getAnnotation(ClassFields.class);
                 System.out.println("Field name: " + classFields.name());
                 // changed the access to public
@@ -32,6 +34,7 @@ public class Test {
             }
         }
 
+        System.out.println(u3);
         for (Field field : u3.getClass().getSuperclass().getDeclaredFields()) {
             ClassFields classFields = field.getAnnotation(ClassFields.class);
             System.out.println("Field name: " + classFields.name());

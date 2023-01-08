@@ -15,6 +15,7 @@ public class Animal {
     }
 
     public void showAllAnimals() {
+        System.out.println("List of animals:");
         animals.forEach(animal -> System.out.println(animal.getName()));
     }
 
@@ -34,6 +35,4 @@ public class Animal {
             this.name = name;
         }
     }
-
-
 }

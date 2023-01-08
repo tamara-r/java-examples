@@ -77,7 +77,6 @@ public class FileDemo {
                     copyFile.delete();
                     printWriter.println("Copied file was deleted successfully!");
                 }
-
             }
 
         } catch (Exception e) {

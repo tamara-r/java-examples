@@ -36,7 +36,6 @@ public class Test {
 
             System.out.println("Killing the " + thread_1.getName() + "...");
 
-            thread_1.join();
 
             System.out.println("Is " + thread_1.getName() + " alive? " + thread_1.isAlive() + '\n');
 
@@ -48,9 +47,9 @@ public class Test {
 
                 System.out.println("Thread " + thread_2.getName() + " priority is " + thread_2.getPriority());
 
-                System.out.println("Setting the max priority...");
+                System.out.println("Setting the min priority...");
 
-                thread_2.setPriority(Thread.MAX_PRIORITY);
+                thread_2.setPriority(Thread.MIN_PRIORITY);
                 System.out.println("Thread " + thread_2.getName() + " priority is " + thread_2.getPriority());
 
                 System.out.println("Killing the " + thread_2.getName() + "...");

@@ -30,6 +30,7 @@ public class Animal {
     Runnable showAnimals = new Runnable() {
         @Override
         public void run() {
+            System.out.println("List of animals:");
             animals.forEach(animal -> System.out.println(animal.getName()));
         }
     };

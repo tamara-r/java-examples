@@ -35,8 +35,6 @@ public class Test {
 
             System.out.println("Killing the " + thread_1.getName() + "...");
 
-            thread_1.join();
-
             System.out.println("Is " + thread_1.getName() + " alive? " + thread_1.isAlive() + '\n');
 
             if(!thread_1.isAlive()) {
@@ -52,8 +50,6 @@ public class Test {
                 thread_2.setPriority(Thread.MAX_PRIORITY);
                 System.out.println("Thread " + thread_2.getName() + " priority is " + thread_2.getPriority());
 
-                System.out.println("Killing the " + thread_2.getName() + "...");
-                thread_2.join();
                 System.out.println("Thread " + thread_2.getName() + " state is " + thread_2.getState());
             }
         } catch (InterruptedException e) {

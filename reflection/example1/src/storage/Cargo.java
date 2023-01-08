@@ -30,6 +30,4 @@ public class Cargo implements Comparable<Cargo>{
     public String toString() {
         return id + ". " + '[' + weight +']';
     }
-
-
 }

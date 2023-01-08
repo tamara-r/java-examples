@@ -17,6 +17,18 @@ public class LinkedListClass {
         public Node() {}
     }
 
+    public static LinkedListClass insertToStart(LinkedListClass list, int data) {
+        // Creating newNode memory & assigning data value
+        Node newNode = new Node(data);
+        // assigning this newNode's next as current head node
+        newNode.next = list.head;
+
+        // re-assigning head to this newNode
+        list.head = newNode;
+
+        return list;
+    }
+
     // Insert a new node to end
     public static LinkedListClass insertToEnd(LinkedListClass list, int data) {
         // Create a new node with given data
@@ -36,17 +48,6 @@ public class LinkedListClass {
             last.next = new_node;
         }
         // Return the list by head
-        return list;
-    }
-    public static LinkedListClass insertToStart(LinkedListClass list, int data) {
-        // Creating newNode memory & assigning data value
-        Node newNode = new Node(data);
-        // assigning this newNode's next as current head node
-        newNode.next = list.head;
-
-        // re-assigning head to this newNode
-        list.head = newNode;
-
         return list;
     }
 
@@ -179,5 +180,4 @@ public class LinkedListClass {
         
         System.out.print("]\n");
     }
-
 }

@@ -1,6 +1,5 @@
 package users;
 
-
 public class Admin extends User {
 
     public Admin(String name, String email) {
@@ -10,14 +9,6 @@ public class Admin extends User {
 
     @Override
     public String toString() {
-        return "User (" +
-                "id: " + super.getId() +
-                ", name: " + super.getName() + '\'' +
-                ", email: " + super.getEmail()+ '\'' +
-                 ", type: " + super.getUserType() + '\'' +
-                ", created at: " + super.getCreated() +
-                ')';
+        return super.toString();
     }
-
-
 }

@@ -5,9 +5,6 @@ import annotations.ClassFields;
 import java.util.Date;
 
 public class User extends IdGenerator {
-//
-//    @ClassFields(name = "idGenerator", type = Integer.class)
-//    private static int idGenerator = 1;
 
     @ClassFields(name = "id", type = Integer.class)
     private int id;
@@ -21,15 +18,15 @@ public class User extends IdGenerator {
     @ClassFields(name = "email", type = String.class)
     private String email;
 
-    @ClassFields(name = "created", type = Date.class)
-    private Date created;
+    @ClassFields(name = "createdAt", type = Date.class)
+    private Date createdAt;
 
     public User(String name, String email) {
         this.id = super.idGenerator++;
         this.name = name;
         this.email = email;
         this.userType = "user";
-        this.created = new Date();
+        this.createdAt = new Date();
     }
 
     public long getId() {
@@ -68,12 +65,12 @@ public class User extends IdGenerator {
     }
 
     public Date getCreated() {
-        return created;
+        return createdAt;
     }
 
     @SuppressWarnings("unused")
     public void setCreated(Date created) {
-        this.created = created;
+        this.createdAt = created;
     }
 
 
@@ -81,9 +78,10 @@ public class User extends IdGenerator {
     public String toString() {
         return "User (" +
                 "id: " + id +
-                ", name: " + name + '\'' +
-                ", email: " + email + '\'' +
-                ", created at: " + created +
+                ", name: " + name +
+                ", email: " + email +
+                ", user type: " + userType +
+                ", created at: " + createdAt +
                 ')';
     }
 }

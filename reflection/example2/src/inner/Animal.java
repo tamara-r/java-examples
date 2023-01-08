@@ -59,6 +59,4 @@ public class Animal {
             System.out.println("Mammals eat grass");
         }
     }
-
-
 }
